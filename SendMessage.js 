@@ -1,0 +1,20 @@
+
+
+class SendMessage 
+{ 
+	var fromNumber = "+19172240301";
+	var toNumber = "+9172240301";
+
+	var function send(toNumber, fromNumber, msg) 
+	{
+		client.messages.create({ 
+		    to: toNumber, 
+		    from: fromNumber, 
+		    body: msg, 
+		}, function(err, message) { 
+		    console.log(message.sid); 
+		}); 
+	}
+
+}
+

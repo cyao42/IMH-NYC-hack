@@ -1,0 +1,203 @@
+/*RESET*/
+html, body, div, section, article, span, figure, figcaption, caption, 
+img, h1, h2, h3, h4, h5, h6, p, a, button, blockquote, pre, abbr, address, 
+small, strong, sub, sup, ol, ul, li, fieldset, form, label, input, select, .select-dropdown-input, output, 
+textarea, legend, table, tr, th, td, dl, dt, dd, footer, header, hgroup, aside, menu, nav, 
+time, mark, audio, video, canvas, embed, iframe, object, hr {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: none;
+  outline: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: default;
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+*,*:before,*:after { 
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+html, body {
+  height: 100%; 
+  width: 100%;
+}
+/*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, img, a {
+  display: block;
+}
+img {
+  width: 100%;
+}
+/*Form elements reset*/
+textarea {
+  resize: vertical;
+}
+::-webkit-search-decoration {
+  display:none;
+}
+:focus {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/*Lists*/
+ul, ol,
+ul ul, ol ul,
+ol ol, ul ol {
+  margin: 0;
+  list-style: none;
+}
+/*Tables*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+abbr {
+  cursor: help;
+}
+
+/*reset sheet*/
+
+header{
+    margin-bottom: -100px;
+    display:block
+}
+p{margin:0;padding:0}
+
+body{
+    /*background: #7db59f;*/
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100;
+    margin-bottom:0;
+}
+
+h1{
+    font-family: Oleo Script;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    color: #71ceb4;
+    font-size: 120px;
+    margin: 0;
+}
+h1 .bustalk{
+  width: 500px;
+  margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{ 
+  background: url(background_image_home.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.user_input .webtitle{
+  font-size: 40px;
+  color: #71ceb4;
+  font-family: Oleo Script;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.user_input input, .user_input textarea {
+    width: 300px;
+    height: 50px;
+    font-size: 36px;
+    padding: 0px 0px 0px 15px;
+    border-radius: 10px;
+    vertical-align: middle;
+    font-family: Arial;
+}
+
+.user_input{
+  margin-top: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.user_input .btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 30px;
+  background: rgba(119, 234, 96, 0.8);
+  padding: 10px;
+  display: block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width:592px){
+    h1{
+        font-size:70px;
+    }
+
+    html{
+        background-size: cover
+    }
+    .btn {
+        display: inline-block;
+        margin: auto;
+        max-width:85%;
+        padding: 3px 1em;
+        font-size:30px;
+    }
+}

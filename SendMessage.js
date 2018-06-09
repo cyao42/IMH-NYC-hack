@@ -2,8 +2,8 @@
 
 class SendMessage 
 { 
-	var fromNumber = "+19172240301";
-	var toNumber = "+9172240301";
+	var fromNumber = "phone-number";
+	var toNumber = "phone-number2";
 
 	var function send(toNumber, fromNumber, msg) 
 	{
